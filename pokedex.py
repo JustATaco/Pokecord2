@@ -1213,6 +1213,86 @@ class articuno(pokemon):
         self.hiddenAbility = "Flame Body"
         self.hidAbBool     = False
         
+        class tapu koko(pokemon):
+    def __init__(self):
+        self.pokedex       = 785
+        self.species       = "Tapu Koko"
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 115
+        self.defense       = 85
+        self.spAtk         = 95
+        self.spDef         = 75
+        self.speed         = 130
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Electric Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False
+        
+        class tapu lele(pokemon):
+    def __init__(self):
+        self.pokedex       = 785
+        self.species       = "Tapu Lele"
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 85
+        self.defense       = 75
+        self.spAtk         = 130
+        self.spDef         = 115
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Psychic Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False        
+        
+        class tapu bulu(pokemon):
+    def __init__(self):
+        self.pokedex       = 787
+        self.species       = "Tapu Bulu"
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 130
+        self.defense       = 115
+        self.spAtk         = 85
+        self.spDef         = 95
+        self.speed         = 75
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Grassy Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False        
+        
+        class tapu fini(pokemon):
+    def __init__(self):
+        self.pokedex       = 788
+        self.species       = "Tapu Fini"
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fairy"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 70
+        self.attack        = 75
+        self.defense       = 115
+        self.spAtk         = 95
+        self.spDef         = 130
+        self.speed         = 85
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Misty Surge"
+        self.hiddenAbility = "Telepathy"
+        self.hidAbBool     = False        
+        
 #pokemon = flabebe()
 #pokemon.setNickname("Paul")
 #print(pokemon.getNickname())
