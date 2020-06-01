@@ -1213,6 +1213,46 @@ class articuno(pokemon):
         self.hiddenAbility = "Flame Body"
         self.hidAbBool     = False
         
+        class typenull(pokemon):
+    def __init__(self):
+        self.pokedex       = 772
+        self.species       = "Type: Null"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 95
+        self.defense       = 95
+        self.spAtk         = 95
+        self.spDef         = 95
+        self.speed         = 59
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "Battle Armor"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+        
+        class silvally(pokemon):
+    def __init__(self):
+        self.pokedex       = 773
+        self.species       = "Silvally"
+        self.nature        = self.generateNature()
+        self.type          = ["Normal"]
+        self.level         = self.generateLevel(1, 100)
+        self.hp            = 95
+        self.attack        = 95
+        self.defense       = 95
+        self.spAtk         = 95
+        self.spDef         = 95
+        self.speed         = 95
+        self.friend        = 70
+        self.gender        = self.generateGender(0)              
+        self.abilities     = [""]
+        self.ability       = "RKS System"
+        self.hiddenAbility = ""
+        self.hidAbBool     = False
+        
 #pokemon = flabebe()
 #pokemon.setNickname("Paul")
 #print(pokemon.getNickname())
